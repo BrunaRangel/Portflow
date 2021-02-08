@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;800;900&display=swap');
+
+html, *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    width: 100%;
+    max-width: 1366px;
+    min-width: 375px;
+}
+
+a, li {
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container_header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box_title_nav{
+    width: 90%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title{
+    width: 50%;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav-1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+}
+
+.list1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item_list{
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-right: 1rem;
+    color: #707070;
+}
+
+.item_list:hover{
+    font-size: 24px;
+    font-weight: 900;
+    color: #000000;
+}
+
+.box_orange_blue{
+    width: 100%;
+    height: 85%;
+    background-image: url(../img/laranja\ azul\ recorte.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#FFFFFF;
+    display: flex;
+    align-items: flex-end;
+}
+
+.box_paragraph{
+    width: 60%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 0 8.5rem 4rem;
+}
+
+.paragraph1{
+    font-size: 55px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.paragraph2{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.nav-2{
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    justify-content: center;
+}
+
+.list2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item{
+    font-size: 28px;
+    text-transform: capitalize;
+    margin-right: 1rem;
+    color: #000000;
+}
+
+.item:hover{
+    color:#BC0606;
+    font-weight: 900;
+}
+
+.container_main{
+    width: 100%;
+}
+
+.wrapper{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+}
+
+.image_grid{
+    width: 95%;
+    margin: 8px;
+}
+
+footer{
+    width: 100%;
+    height: 20vh;
+    margin-top: 3rem;
+}
+
+.container_footer{
+    widows: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #F6F6F6;
+}
+
+.box_icons{
+    width: 35%;
+    margin-left: 5rem;
+}
+
+.logo_icons{
+    width: 72%;
+}
+
+.wrap_paragraph_footer{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.paragraph_copyrigth{
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    margin-right: 2rem;
+}
+
+.paragraph_layout{
+    width: 60%;
+    font-size: 12px;
+}
